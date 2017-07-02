@@ -1,5 +1,3 @@
-# CzyAliPayMainUIDemo
-
 #支付宝首页UI效果：
 
 ##嵌套结构：scrollView上放一个继承与UITableView的CzyCustomTableView
