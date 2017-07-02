@@ -1,8 +1,8 @@
-#支付宝首页UI效果：
+# 支付宝首页UI效果：
 
-##嵌套结构：scrollView上放一个继承与UITableView的CzyCustomTableView
+## 嵌套结构：scrollView上放一个继承与UITableView的CzyCustomTableView
 
-###关键点：
+### 关键点：
 
     1.设置滚动条在tableView y=0处：
       mainScrollView?.scrollIndicatorInsets = UIEdgeInsets.init(top: 100+80, left: 0, bottom: 0, right: 0)
@@ -25,7 +25,7 @@
       CzyCustomTableView：self.isScrollEnabled = false
       
       
-#效果图
+# 效果图
 
 ![image](https://github.com/ITIosEthan/CzyAliPayMainUIDemo/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%A6%96%E9%A1%B5UI.gif)
     
