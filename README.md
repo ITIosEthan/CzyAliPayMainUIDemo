@@ -1,4 +1,4 @@
-# 支付宝首页UI效果：
+# 一、支付宝首页UI效果：
 
 ## 嵌套结构：scrollView上放一个继承与UITableView的CzyCustomTableView
 
@@ -7,7 +7,7 @@
     1.设置滚动条在tableView y=0处：
       mainScrollView?.scrollIndicatorInsets = UIEdgeInsets.init(top: 100+80, left: 0, bottom: 0, right: 0)
      
-    2.奢侈tableView的高度问整个scrollView的contentSize-topHeight
+    2.设置tableView的高度为整个scrollView的contentSize-topHeight：kCzyHeight*2-180-49
       mainTableView = CzyCustomTableView.init(frame: CGRect.init(x: 0, y: (mainSmallCategoryView?.frame.maxY)!, width: kCzyWith, height: kCzyHeight*2-180-49), style: .plain)
     
     3.在scrollViewDidScroll里面scrollView向下滑动的时候，设置上边视图frame时，应该是：
