@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061C79981EEFE0BE001D54E1 /* CzyAssistantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C798C1EEFE0BE001D54E1 /* CzyAssistantFile.swift */; };
+		061C79991EEFE0BE001D54E1 /* CzyEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C798F1EEFE0BE001D54E1 /* CzyEditViewController.swift */; };
+		061C799A1EEFE0BE001D54E1 /* CzyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C79941EEFE0BE001D54E1 /* CzyMainViewController.swift */; };
+		061C799B1EEFE0BE001D54E1 /* CzyCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C79971EEFE0BE001D54E1 /* CzyCustomTableView.swift */; };
+		061C799E1EEFE10E001D54E1 /* CzyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C799D1EEFE10E001D54E1 /* CzyBtn.swift */; };
+		065ADA6C1EEFB0CF00051390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ADA6B1EEFB0CF00051390 /* AppDelegate.swift */; };
+		065ADA6E1EEFB0CF00051390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ADA6D1EEFB0CF00051390 /* ViewController.swift */; };
+		065ADA711EEFB0CF00051390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065ADA6F1EEFB0CF00051390 /* Main.storyboard */; };
+		065ADA741EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 065ADA721EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodeld */; };
+		065ADA761EEFB0D000051390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065ADA751EEFB0D000051390 /* Assets.xcassets */; };
+		065ADA791EEFB0D000051390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065ADA771EEFB0D000051390 /* LaunchScreen.storyboard */; };
+		065ADA841EEFB0D000051390 /* CzyAliPayUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ADA831EEFB0D000051390 /* CzyAliPayUIDemoTests.swift */; };
+		065ADA8F1EEFB0D000051390 /* CzyAliPayUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ADA8E1EEFB0D000051390 /* CzyAliPayUIDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065ADA801EEFB0D000051390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065ADA601EEFB0CF00051390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065ADA671EEFB0CF00051390;
+			remoteInfo = CzyAliPayUIDemo;
+		};
+		065ADA8B1EEFB0D000051390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065ADA601EEFB0CF00051390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065ADA671EEFB0CF00051390;
+			remoteInfo = CzyAliPayUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061C798C1EEFE0BE001D54E1 /* CzyAssistantFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzyAssistantFile.swift; sourceTree = "<group>"; };
+		061C798F1EEFE0BE001D54E1 /* CzyEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzyEditViewController.swift; sourceTree = "<group>"; };
+		061C79941EEFE0BE001D54E1 /* CzyMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzyMainViewController.swift; sourceTree = "<group>"; };
+		061C79971EEFE0BE001D54E1 /* CzyCustomTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzyCustomTableView.swift; sourceTree = "<group>"; };
+		061C799D1EEFE10E001D54E1 /* CzyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzyBtn.swift; sourceTree = "<group>"; };
+		065ADA681EEFB0CF00051390 /* CzyAliPayUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CzyAliPayUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065ADA6B1EEFB0CF00051390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065ADA6D1EEFB0CF00051390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065ADA701EEFB0CF00051390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065ADA731EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CzyAliPayUIDemo.xcdatamodel; sourceTree = "<group>"; };
+		065ADA751EEFB0D000051390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065ADA781EEFB0D000051390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065ADA7A1EEFB0D000051390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065ADA7F1EEFB0D000051390 /* CzyAliPayUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyAliPayUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065ADA831EEFB0D000051390 /* CzyAliPayUIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CzyAliPayUIDemoTests.swift; sourceTree = "<group>"; };
+		065ADA851EEFB0D000051390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065ADA8A1EEFB0D000051390 /* CzyAliPayUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyAliPayUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065ADA8E1EEFB0D000051390 /* CzyAliPayUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CzyAliPayUIDemoUITests.swift; sourceTree = "<group>"; };
+		065ADA901EEFB0D000051390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065ADA651EEFB0CF00051390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA7C1EEFB0D000051390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA871EEFB0D000051390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061C798B1EEFE0BE001D54E1 /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				061C798C1EEFE0BE001D54E1 /* CzyAssistantFile.swift */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		061C798D1EEFE0BE001D54E1 /* edit(编辑) */ = {
+			isa = PBXGroup;
+			children = (
+				061C798E1EEFE0BE001D54E1 /* Controller */,
+				061C79901EEFE0BE001D54E1 /* Models */,
+				061C79911EEFE0BE001D54E1 /* Views */,
+			);
+			path = "edit(编辑)";
+			sourceTree = "<group>";
+		};
+		061C798E1EEFE0BE001D54E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				061C798F1EEFE0BE001D54E1 /* CzyEditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		061C79901EEFE0BE001D54E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		061C79911EEFE0BE001D54E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		061C79921EEFE0BE001D54E1 /* main(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				061C79931EEFE0BE001D54E1 /* Controller */,
+				061C79951EEFE0BE001D54E1 /* Models */,
+				061C79961EEFE0BE001D54E1 /* Views */,
+			);
+			path = "main(首页)";
+			sourceTree = "<group>";
+		};
+		061C79931EEFE0BE001D54E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				061C79941EEFE0BE001D54E1 /* CzyMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		061C79951EEFE0BE001D54E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		061C79961EEFE0BE001D54E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				061C79971EEFE0BE001D54E1 /* CzyCustomTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		061C799C1EEFE0FF001D54E1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				061C799D1EEFE10E001D54E1 /* CzyBtn.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		065ADA5F1EEFB0CF00051390 = {
+			isa = PBXGroup;
+			children = (
+				065ADA6A1EEFB0CF00051390 /* CzyAliPayUIDemo */,
+				065ADA821EEFB0D000051390 /* CzyAliPayUIDemoTests */,
+				065ADA8D1EEFB0D000051390 /* CzyAliPayUIDemoUITests */,
+				065ADA691EEFB0CF00051390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065ADA691EEFB0CF00051390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065ADA681EEFB0CF00051390 /* CzyAliPayUIDemo.app */,
+				065ADA7F1EEFB0D000051390 /* CzyAliPayUIDemoTests.xctest */,
+				065ADA8A1EEFB0D000051390 /* CzyAliPayUIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065ADA6A1EEFB0CF00051390 /* CzyAliPayUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				061C799C1EEFE0FF001D54E1 /* common */,
+				061C798B1EEFE0BE001D54E1 /* Assistant */,
+				061C798D1EEFE0BE001D54E1 /* edit(编辑) */,
+				061C79921EEFE0BE001D54E1 /* main(首页) */,
+				065ADA6B1EEFB0CF00051390 /* AppDelegate.swift */,
+				065ADA6D1EEFB0CF00051390 /* ViewController.swift */,
+				065ADA6F1EEFB0CF00051390 /* Main.storyboard */,
+				065ADA751EEFB0D000051390 /* Assets.xcassets */,
+				065ADA771EEFB0D000051390 /* LaunchScreen.storyboard */,
+				065ADA7A1EEFB0D000051390 /* Info.plist */,
+				065ADA721EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodeld */,
+			);
+			path = CzyAliPayUIDemo;
+			sourceTree = "<group>";
+		};
+		065ADA821EEFB0D000051390 /* CzyAliPayUIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				065ADA831EEFB0D000051390 /* CzyAliPayUIDemoTests.swift */,
+				065ADA851EEFB0D000051390 /* Info.plist */,
+			);
+			path = CzyAliPayUIDemoTests;
+			sourceTree = "<group>";
+		};
+		065ADA8D1EEFB0D000051390 /* CzyAliPayUIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				065ADA8E1EEFB0D000051390 /* CzyAliPayUIDemoUITests.swift */,
+				065ADA901EEFB0D000051390 /* Info.plist */,
+			);
+			path = CzyAliPayUIDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065ADA671EEFB0CF00051390 /* CzyAliPayUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065ADA931EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemo" */;
+			buildPhases = (
+				065ADA641EEFB0CF00051390 /* Sources */,
+				065ADA651EEFB0CF00051390 /* Frameworks */,
+				065ADA661EEFB0CF00051390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CzyAliPayUIDemo;
+			productName = CzyAliPayUIDemo;
+			productReference = 065ADA681EEFB0CF00051390 /* CzyAliPayUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065ADA7E1EEFB0D000051390 /* CzyAliPayUIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065ADA961EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemoTests" */;
+			buildPhases = (
+				065ADA7B1EEFB0D000051390 /* Sources */,
+				065ADA7C1EEFB0D000051390 /* Frameworks */,
+				065ADA7D1EEFB0D000051390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065ADA811EEFB0D000051390 /* PBXTargetDependency */,
+			);
+			name = CzyAliPayUIDemoTests;
+			productName = CzyAliPayUIDemoTests;
+			productReference = 065ADA7F1EEFB0D000051390 /* CzyAliPayUIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065ADA891EEFB0D000051390 /* CzyAliPayUIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065ADA991EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemoUITests" */;
+			buildPhases = (
+				065ADA861EEFB0D000051390 /* Sources */,
+				065ADA871EEFB0D000051390 /* Frameworks */,
+				065ADA881EEFB0D000051390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065ADA8C1EEFB0D000051390 /* PBXTargetDependency */,
+			);
+			name = CzyAliPayUIDemoUITests;
+			productName = CzyAliPayUIDemoUITests;
+			productReference = 065ADA8A1EEFB0D000051390 /* CzyAliPayUIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065ADA601EEFB0CF00051390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					065ADA671EEFB0CF00051390 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+					};
+					065ADA7E1EEFB0D000051390 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065ADA671EEFB0CF00051390;
+					};
+					065ADA891EEFB0D000051390 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065ADA671EEFB0CF00051390;
+					};
+				};
+			};
+			buildConfigurationList = 065ADA631EEFB0CF00051390 /* Build configuration list for PBXProject "CzyAliPayUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065ADA5F1EEFB0CF00051390;
+			productRefGroup = 065ADA691EEFB0CF00051390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065ADA671EEFB0CF00051390 /* CzyAliPayUIDemo */,
+				065ADA7E1EEFB0D000051390 /* CzyAliPayUIDemoTests */,
+				065ADA891EEFB0D000051390 /* CzyAliPayUIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065ADA661EEFB0CF00051390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065ADA791EEFB0D000051390 /* LaunchScreen.storyboard in Resources */,
+				065ADA761EEFB0D000051390 /* Assets.xcassets in Resources */,
+				065ADA711EEFB0CF00051390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA7D1EEFB0D000051390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA881EEFB0D000051390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065ADA641EEFB0CF00051390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061C79991EEFE0BE001D54E1 /* CzyEditViewController.swift in Sources */,
+				061C799E1EEFE10E001D54E1 /* CzyBtn.swift in Sources */,
+				061C79981EEFE0BE001D54E1 /* CzyAssistantFile.swift in Sources */,
+				065ADA6E1EEFB0CF00051390 /* ViewController.swift in Sources */,
+				065ADA6C1EEFB0CF00051390 /* AppDelegate.swift in Sources */,
+				061C799A1EEFE0BE001D54E1 /* CzyMainViewController.swift in Sources */,
+				061C799B1EEFE0BE001D54E1 /* CzyCustomTableView.swift in Sources */,
+				065ADA741EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA7B1EEFB0D000051390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065ADA841EEFB0D000051390 /* CzyAliPayUIDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065ADA861EEFB0D000051390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065ADA8F1EEFB0D000051390 /* CzyAliPayUIDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065ADA811EEFB0D000051390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065ADA671EEFB0CF00051390 /* CzyAliPayUIDemo */;
+			targetProxy = 065ADA801EEFB0D000051390 /* PBXContainerItemProxy */;
+		};
+		065ADA8C1EEFB0D000051390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065ADA671EEFB0CF00051390 /* CzyAliPayUIDemo */;
+			targetProxy = 065ADA8B1EEFB0D000051390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065ADA6F1EEFB0CF00051390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065ADA701EEFB0CF00051390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065ADA771EEFB0D000051390 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065ADA781EEFB0D000051390 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065ADA911EEFB0D000051390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065ADA921EEFB0D000051390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065ADA941EEFB0D000051390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMac.developer2.Ethan.CzyMsxhProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		065ADA951EEFB0D000051390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMac.developer2.Ethan.CzyMsxhProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		065ADA971EEFB0D000051390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyAliPayUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyAliPayUIDemo.app/CzyAliPayUIDemo";
+			};
+			name = Debug;
+		};
+		065ADA981EEFB0D000051390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyAliPayUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyAliPayUIDemo.app/CzyAliPayUIDemo";
+			};
+			name = Release;
+		};
+		065ADA9A1EEFB0D000051390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyAliPayUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CzyAliPayUIDemo;
+			};
+			name = Debug;
+		};
+		065ADA9B1EEFB0D000051390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyAliPayUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyAliPayUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CzyAliPayUIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065ADA631EEFB0CF00051390 /* Build configuration list for PBXProject "CzyAliPayUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065ADA911EEFB0D000051390 /* Debug */,
+				065ADA921EEFB0D000051390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065ADA931EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065ADA941EEFB0D000051390 /* Debug */,
+				065ADA951EEFB0D000051390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065ADA961EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065ADA971EEFB0D000051390 /* Debug */,
+				065ADA981EEFB0D000051390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065ADA991EEFB0D000051390 /* Build configuration list for PBXNativeTarget "CzyAliPayUIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065ADA9A1EEFB0D000051390 /* Debug */,
+				065ADA9B1EEFB0D000051390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		065ADA721EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				065ADA731EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodel */,
+			);
+			currentVersion = 065ADA731EEFB0CF00051390 /* CzyAliPayUIDemo.xcdatamodel */;
+			path = CzyAliPayUIDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 065ADA601EEFB0CF00051390 /* Project object */;
+}
