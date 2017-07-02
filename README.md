@@ -8,7 +8,9 @@
       mainScrollView?.scrollIndicatorInsets = UIEdgeInsets.init(top: 100+80, left: 0, bottom: 0, right: 0)
      
     2.设置tableView的高度为整个scrollView的contentSize-topHeight：
-      mainTableView = CzyCustomTableView.init(frame: CGRect.init(x: 0, y: (mainSmallCategoryView?.frame.maxY)!, width: kCzyWith, height: kCzyHeight*2-180-49), style: .plain)
+    
+        mainTableView = CzyCustomTableView.init(frame: CGRect.init(x: 0, y: (mainSmallCategoryView?.frame.maxY)!, width: kCzyWith, 
+        height: kCzyHeight*2-180-49), style: .plain)
     
     3.在scrollViewDidScroll里面scrollView向下滑动的时候，设置上边视图frame时，应该是：
       mainLargeCategoryView?.frame.origin.y = offSetY
@@ -19,7 +21,7 @@
       mainLargeCategoryView?.alpha = 1.0
       
     5.压缩视觉效果，本质是滑动的时候不1：1的改变frame，这里改变的是frame/3:（被压的视图先加到view上）
-      mainLargeCategoryView?.frame.origin.y = offSetY / 3
+         mainLargeCategoryView?.frame.origin.y = offSetY / 3
     
     6.注意有两个可以同方向滑动的滚动视图时，确保当前第一响应者是scrollView：
       CzyCustomTableView：self.isScrollEnabled = false
